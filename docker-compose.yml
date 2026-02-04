@@ -1,0 +1,9 @@
+version : "3.2"
+
+services :
+  nginx : 
+    build : .
+    image : 88653/workona
+    ports  : 
+      - 7080:80
+    
